@@ -4,6 +4,5 @@ otp_release:
   - 18.1
   - 18.0
   - 17.5
-  - R16B03
-install: true
-script: rebar3 eunit
+
+
