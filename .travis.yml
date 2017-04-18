@@ -19,4 +19,4 @@ matrix:
     - os: linux
       otp_release: 19.2
 
-script: "make compile && rm -rf .git && make test"
+script: "rebar3 eunit"
