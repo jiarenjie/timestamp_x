@@ -1,8 +1,12 @@
 language: erlang
 otp_release:
-  - 18.2.1
-  - 18.1
-  - 18.0
-  - 17.5
-
-
+   - R16B
+   - R16B03-1
+   - 17.0
+   - 17.1
+   - 18.0
+   - 18.1
+   - 18.2.1
+before_script:
+  - "./bootstrap_travis.sh"
+script: "./rebar3 eunit"

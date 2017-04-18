@@ -4,7 +4,7 @@
 %%% @doc Provide string datetime manipulation functions
 %%%
 %%% @end
-%%% Created : 17. Nov 2017 01:49 PM
+%%% Created : 26. Feb 2017 01:49 PM
 %%%-------------------------------------------------------------------
 -module(timestamp_x).
 -include_lib("eunit/include/eunit.hrl").
