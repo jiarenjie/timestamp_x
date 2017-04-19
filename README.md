@@ -1,6 +1,6 @@
+# ibrowse [![Build Status](https://api.travis-ci.org/qq164977873/timestamp_x.png)](https://travis-ci.org/qq164977873/timestamp_x)
 timestamp_x
 =====
-https://travis-ci.org/qq164977873/timestamp_x.svg?branch=master
 
 An OTP library
 
