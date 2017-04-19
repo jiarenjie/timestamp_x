@@ -240,5 +240,4 @@ to_datetime_test()->
   ?assertEqual({date_yyyymmdd,<<"20170328">>},to_datetime(date_yyyymmdd,{ts_binary,<<"20170328092855603000">>})),
   ?assertEqual({date_mmdd,<<"0328">>},to_datetime(date_mmdd,{ts_datetime,{{2017,3,28},{9,29,8},197000}})),
   ?assertEqual({date_internal,{2017,3,28}},to_datetime(date_internal,{ts_tz,<<"20170328T09:29:23">>})),
-  ?assertEqual({time_hhmmss,<<"093003">>},to_datetime(time_hhmmss,{ts_tz_ali,<<"2017-03-28T09:30:03.978000Z">>})),
-  ?assertEqual({time_internal,{14,31,12}},to_datetime(time_internal,{ts_unix,1490682672})).
+  ?assertEqual({time_hhmmss,<<"093003">>},to_datetime(time_hhmmss,{ts_tz_ali,<<"2017-03-28T09:30:03.978000Z">>})).
