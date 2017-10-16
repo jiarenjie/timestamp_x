@@ -1,4 +1,4 @@
-# timestamp_x [![Build Status](https://api.travis-ci.org/qq164977873/timestamp_x.png)](https://travis-ci.org/qq164977873/timestamp_x)
+# timestamp_x [![Build Status](https://api.travis-ci.org/jiarenjie/timestamp_x.svg?branch=master)](https://travis-ci.org/jiarenjie/timestamp_x)
 =====
 
 An OTP library
